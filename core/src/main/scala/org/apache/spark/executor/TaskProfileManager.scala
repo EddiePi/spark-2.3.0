@@ -7,6 +7,7 @@ import org.apache.spark.SparkEnv
 import org.apache.spark.internal.Logging
 import org.apache.spark.memory.TaskMemoryManager
 import org.apache.spark.scheduler.Task
+import org.apache.spark.tracing.TaskInfo
 import org.apache.spark.util.{ThreadUtils, Utils}
 
 import scala.collection.mutable
